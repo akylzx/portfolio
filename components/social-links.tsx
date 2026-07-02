@@ -3,6 +3,7 @@ import { site } from "@/data/site";
 import {
   FileIcon,
   GitHubIcon,
+  LetterboxdIcon,
   LinkedInIcon,
   MailIcon,
   XIcon,
@@ -29,6 +30,11 @@ export function SocialLinks() {
       Icon: LinkedInIcon,
     },
     resume && { label: "CV", href: resume, Icon: FileIcon },
+    socials.letterboxd && {
+      label: "Letterboxd",
+      href: socials.letterboxd,
+      Icon: LetterboxdIcon,
+    },
     socials.x && { label: "X", href: socials.x, Icon: XIcon },
     email && { label: "Email", href: `mailto:${email}`, Icon: MailIcon },
   ].filter(Boolean) as SocialLink[];

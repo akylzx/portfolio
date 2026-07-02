@@ -16,7 +16,7 @@ export default async function HomePage() {
       <Hero />
 
       <section className="space-y-6">
-        <SectionLabel>Projects</SectionLabel>
+        <SectionLabel>[Projects]</SectionLabel>
         <ProjectList projects={shown} />
         {all.length > shown.length ? (
           <Link

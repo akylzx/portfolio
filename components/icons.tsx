@@ -67,6 +67,23 @@ export function MailIcon(props: IconProps) {
   );
 }
 
+export function LetterboxdIcon(props: IconProps) {
+  return (
+    <svg
+      viewBox="0 0 24 24"
+      width="20"
+      height="20"
+      fill="currentColor"
+      aria-hidden
+      {...props}
+    >
+      <circle cx="5.7" cy="12" r="3.1" />
+      <circle cx="12" cy="12" r="3.1" />
+      <circle cx="18.3" cy="12" r="3.1" />
+    </svg>
+  );
+}
+
 export function FileIcon(props: IconProps) {
   return (
     <svg

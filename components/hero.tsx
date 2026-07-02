@@ -1,11 +1,11 @@
 import { site } from "@/data/site";
-import { Lissajous } from "./lissajous";
 import { SocialLinks } from "./social-links";
+import { Windmill } from "./windmill";
 
 export function Hero() {
   return (
-    <header className="flex flex-col gap-8 sm:flex-row sm:items-center sm:gap-10">
-      <Lissajous size={180} />
+    <header className="flex flex-col gap-8 sm:flex-row sm:items-center sm:gap-12">
+      <Windmill />
 
       <div className="space-y-6">
         <div className="space-y-1">

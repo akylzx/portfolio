@@ -31,7 +31,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${inter.variable} ${jetbrainsMono.variable}`}>
-        <div className="mx-auto flex min-h-dvh max-w-2xl flex-col px-6 py-16 sm:px-8 sm:py-24">
+        <div className="mx-auto flex min-h-dvh max-w-5xl flex-col px-5 py-16 sm:px-6 sm:py-24">
           <main className="flex-1">{children}</main>
           <footer className="mt-24 font-mono text-xs text-muted">
             {site.name ? `© ${new Date().getFullYear()} ${site.name}` : null}

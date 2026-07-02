@@ -56,6 +56,22 @@
   }
 }
 
+.windmill-img {
+  mix-blend-mode: lighten;
+  /* Feather the edges so the photo dissolves into the page rather than sitting
+     in a rectangle. */
+  -webkit-mask-image: radial-gradient(
+    ellipse 70% 74% at 50% 45%,
+    #000 55%,
+    transparent 92%
+  );
+  mask-image: radial-gradient(
+    ellipse 70% 74% at 50% 45%,
+    #000 55%,
+    transparent 92%
+  );
+}
+
 [data-rehype-pretty-code-figure] pre {
   overflow-x: auto;
   border-radius: 0.375rem;
